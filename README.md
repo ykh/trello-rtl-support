@@ -4,7 +4,7 @@ Trello RTL Support
 Hi :) <br>
 After a long time that I disappointed of rtl-support feature on [Trello](https://trello.com) I decided to figure a solution out! <br>
 
-So if you are a trello fan and working with it and you have some RTL content in your boards data, I suggest this solution to you. I hope you anjoy it :)<br>
+So if you are a trello fan and working with it and you have some RTL content in your boards data, I suggest this solution to you. I hope you enjoy it :)<br>
 
 <h2>How to use:</h2>
 1. Install [cjs chrome extension](https://chrome.google.com/webstore/detail/poakhlngfciodnhlhhgnaaelnpjljija) to run javascript code. (script.js in this case)
