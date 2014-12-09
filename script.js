@@ -1,3 +1,8 @@
+/**
+ * Developer: Yaser Khahani
+ * URL: https://github.com/ykh/trello-rtl-support
+ * 2014
+ **/ 
 var doms = '.list-header, p ,a',
     inputs = 'textarea';
   
