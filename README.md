@@ -13,9 +13,9 @@ So if you are a trello fan and working with it and you have some RTL content in 
 3. Add content of [script.js](https://github.com/ykh/trello-auto-dir/blob/master/script.js) to cjs extension <br>
 4. And... enjoying Trello more than before :) <br>
 <b>Method 2:</b> <br>
-1. Download and install [TamperMonkey](http://tampermonkey.net/) Extensions
-2. After that you can install script.js via [Monkeyguts](https://monkeyguts.com/code.php?id=657)
-3. Enable script, and have fun :)
+1. Download and install [TamperMonkey](http://tampermonkey.net/) Extensions <br>
+2. After that you can install script.js via [Monkeyguts](https://monkeyguts.com/code.php?id=657) <br>
+3. Enable script, and have fun :) <br>
 
 
 - [cjs-extension](https://chrome.google.com/webstore/detail/poakhlngfciodnhlhhgnaaelnpjljija) is just a tool to run custome javascript in any website you want, so you can use another tool to run the script.js :)<br>
