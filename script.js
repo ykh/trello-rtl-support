@@ -3,7 +3,7 @@
  * URL: https://github.com/ykh/trello-rtl-support
  * 2014
  **/ 
-var doms = '.list-header, p ,a',
+var doms = '.list-header, p ,a, .checklist-title, .checklist-item',
     inputs = 'textarea';
   
 $(document).ajaxComplete(function () {
