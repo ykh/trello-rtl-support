@@ -1,14 +1,16 @@
-var doms = '.list-card, h1, h2, p',
+var doms = '.list-header, p ,a',
     inputs = 'textarea';
-
-$(document).ready(function () {
+  
+$(document).ajaxComplete(function () {
     $(doms).each(function () {
         updateStyle($(this));
     });
 });
 
-$('body').on('DOMSubtreeModified', doms, function () {
-    updateStyle($(this));
+$(document).ready(function () {
+    $(doms).each(function () {
+        updateStyle($(this));
+    });
 });
 
 $('body').on('input blur focus', inputs, function (e) {
@@ -20,24 +22,23 @@ function updateStyle(target) {
         matched,
         dir,
         align,
-        attribute = 'text';
+        value = '';
+        
+    value = target.text();
     
-    if ($(target).is('textarea')) {
-        attribute = 'val';
+    if (target.is('textarea')) {
+        value = target.val();
     }
         
     regex = /[\u0600-\u06FF]/;
     
-    matched = target[attribute]().match(regex);
-    
-    dir = target.css('direction', 'rtl');
-    align = target.css('text-align', 'right');
+    matched = value.match(regex);
     
     if (matched) {
             target.css('direction', 'rtl');
             target.css('text-align', 'right');
     } else {
-        target.css('direction', dir);
-        target.css('text-align', align); 
+        target.css('direction', 'ltr');
+        target.css('text-align', 'left');
     }
 }
