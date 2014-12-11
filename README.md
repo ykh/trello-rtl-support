@@ -6,6 +6,10 @@ After a long time that I disappointed of rtl-support feature on [Trello](https:/
 
 So if you are a trello fan and working with it and you have some RTL content in your boards data, I suggest this solution to you. I hope you enjoy it :)<br>
 
+<h2>Languages Support:</h2>
+1- Persian <br>
+2- Arabic (Not Fully Tested) <br>
+
 <h2>How to use</h2>
 <b>Method 1 (Recommended):</b> <br>
 1. Install [cjs chrome extension](https://chrome.google.com/webstore/detail/poakhlngfciodnhlhhgnaaelnpjljija) to run javascript code. (script.js in this case) <br>
