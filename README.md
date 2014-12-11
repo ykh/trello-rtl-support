@@ -25,3 +25,4 @@ So if you are a trello fan and working with it and you have some RTL content in 
 - [cjs-extension](https://chrome.google.com/webstore/detail/poakhlngfciodnhlhhgnaaelnpjljija) is just a tool to run custome javascript in any website you want, so you can use another tool to run the script.js :)<br>
 - script.js is written to be use on [Trello](https://trello.com).
 - script.js never ever any effects on your trello boards data, it just effect on styles.
+- If you need another rtl-language that not exists in supported list, send me your language name, and I will trying to add it :)
