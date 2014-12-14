@@ -3,7 +3,7 @@
  * URL: https://github.com/ykh/trello-rtl-support
  * 2014
  **/ 
-var doms = '.list-header, p ,a, .checklist-title, .checklist-item',
+var doms = 'h1, h2, h3, p ,a',
     inputs = 'textarea, input[type=text]';
 
 $(document).ajaxComplete(function () {
@@ -27,12 +27,29 @@ function updateStyle(target) {
         matched,
         dir,
         align,
-        value = '';
+        value = '',
+        tagName = target[0].tagName,
+        rtl,
+        ltr;
+
+    rtl = {
+        'direction': 'rtl',
+        'text-align': 'right'        
+    };   
+    ltr = {
+        'direction': 'ltr',
+        'text-align': 'left'        
+    };
         
     value = target.text();
     
     if (target.is('textarea') || target.is('input[type=text]')) {
         value = target.val();
+    }
+    
+    if (target.is('a') || tagName === 'H1' || tagName === 'H2' || tagName === 'H3') {
+        rtl['unicode-bidi'] = 'embed';
+        ltr['unicode-bidi'] = '';
     }
         
     regex = /[\u0600-\u06FF]/;
@@ -40,10 +57,8 @@ function updateStyle(target) {
     matched = value.match(regex);
     
     if (matched) {
-            target.css('direction', 'rtl');
-            target.css('text-align', 'right');
+            target.css(rtl);            
     } else {
-        target.css('direction', 'ltr');
-        target.css('text-align', 'left');
+        target.css(ltr);        
     }
 }
