@@ -4,8 +4,8 @@
  * 2014
  **/ 
 var doms = '.list-header, p ,a, .checklist-title, .checklist-item',
-    inputs = 'textarea';
-  
+    inputs = 'textarea, input[type=text]';
+
 $(document).ajaxComplete(function () {
     $(doms).each(function () {
         updateStyle($(this));
@@ -31,7 +31,7 @@ function updateStyle(target) {
         
     value = target.text();
     
-    if (target.is('textarea')) {
+    if (target.is('textarea') || target.is('input[type=text]')) {
         value = target.val();
     }
         
