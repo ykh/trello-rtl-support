@@ -4,7 +4,7 @@
  * This script is a solution to trello can detect rtl content and apply correct behaviors
  * Licensed under the GNU GPL v2 license.
  */
-(function () {
+(function ($, document) {
     var doms = 'h1, h2, h3, p ,a',
         inputs = 'textarea, input[type=text]';
 
@@ -27,9 +27,7 @@
     function updateStyle(target) {
         var regex,
             matched,
-            dir,
-            align,
-            value = '',
+            value,
             tagName = target[0].tagName,
             rtl,
             ltr;
@@ -64,4 +62,4 @@
             target.css(ltr);
         }
     }
-})();
+})($, document);
