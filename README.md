@@ -7,7 +7,8 @@ After a long time that I disappointed of rtl-support feature on [Trello](https:/
 There is some screenshots, so you can see the result :) <br><br>
 
 - Cards list: <br>
-![trello-rtl-1](https://cloud.githubusercontent.com/assets/2290912/5426588/7eee03e0-8372-11e4-8f7a-5b514d0fe89a.png) <br>
+![trello-rtl-1](https://cloud.githubusercontent.com/assets/2290912/5434811/1678ca1c-846b-11e4-807c-8aad75610000.jpg)
+ <br>
 - Typing in RTL: <br>
 ![trello-rtl-2](https://cloud.githubusercontent.com/assets/2290912/5426589/7ef0622a-8372-11e4-9855-43867633281f.png) <br>
 - Check list RTL/LTR: <br>
