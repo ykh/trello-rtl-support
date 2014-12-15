@@ -25,7 +25,7 @@
     });
 
     function updateStyle(target) {
-        var regex,
+        var regex = [],
             matched,
             value,
             tagName = target[0].tagName,
@@ -52,9 +52,18 @@
             ltr['unicode-bidi'] = '';
         }
 
-        regex = /[\u0600-\u06FF]/;
+        // Persian, Arabic
+        regex.push(/[\u0600-\u06FF]/);
+        // Hebrew
+        regex.push(/[\u0590-\u05FF]/);
 
-        matched = value.match(regex);
+        for (var i = 0; i < regex.length; i++) {
+            matched = value.match(regex[i]);
+
+            if (matched) {
+                break;
+            }
+        }
 
         if (matched) {
             target.css(rtl);
