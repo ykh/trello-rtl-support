@@ -17,7 +17,8 @@ So if you are a trello fan and working with it and you have some RTL content in 
 
 <h2>Languages Support:</h2>
 1- Persian <br>
-2- Arabic (Not Fully Tested) <br>
+2- Arabic <br>
+3- Hebrew <br>
 
 <h2>How to use</h2>
 <b>Method 1 (Recommended):</b> <br>
