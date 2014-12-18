@@ -33,7 +33,7 @@ So if you are a trello fan and working with it and you have some RTL content in 
 3. Enable script, and have fun :) <br>
 
 <h2>Add more readability</h2>
-<b>Method 1 (Recommended):</b> <br>
+<b>More useful for Windows users</b> <br>
 1. Install [Stylish chrome extension](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe) <br>
 2. Go to [Trello RightFace](https://userstyles.org/styles/108293/trello-rightface) stylesheet page<br>
 3. Install it... <br>
