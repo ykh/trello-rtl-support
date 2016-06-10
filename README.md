@@ -1,6 +1,15 @@
 Trello RTL Support
 ===============
 
+<b>[DEPRECATED! but Don't Worry, I Have a Surprise]</b> </br>
+I Just Migrated to [rtl-happy](https://github.com/ykh/rtl-happy) repository, it's same as this repo with some new advantages: </br>
+- You Can Use RTL-Happy Script as a Chrome Extension! :)
+- You Can Use It as a User-Script same as always.
+- You Can Use It as an Script in Your Own Way(s)!
+- [Phabricator](https://phacility.com/) Is Supported Right Now.
+
+HAVE FUN :)
+
 Hi :) <br>
 After a long time that I disappointed of rtl-support feature on [Trello](https://trello.com) I decided to figure a solution out! <br>
 
