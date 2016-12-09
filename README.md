@@ -41,8 +41,15 @@ So if you are a trello fan and working with it and you have some RTL content in 
 2. After that you can install script.js via [Monkeyguts](https://monkeyguts.com/code.php?id=657) <br>
 3. Enable script, and have fun :) <br>
 
+<h2>Add more readability</h2>
+<b>More useful for Windows users</b> <br>
+1. Install [Stylish chrome extension](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe) <br>
+2. Go to [Trello RightFace](https://userstyles.org/styles/108293/trello-rightface) stylesheet page<br>
+3. Install it... <br>
+
 <h2>Just to remind</h2>
 - [cjs-extension](https://chrome.google.com/webstore/detail/poakhlngfciodnhlhhgnaaelnpjljija) is just a tool to run custome javascript in any website you want, so you can use another tool to run the script.js :)<br>
 - script.js is written to be use on [Trello](https://trello.com).
 - script.js never ever any effects on your trello boards data, it just effect on styles.
 - If you need another rtl-language that not exists in supported list, send me your language name, and I will trying to add it :)
+- 
