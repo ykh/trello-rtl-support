@@ -15,6 +15,9 @@
     });
 
     $(document).ready(function () {
+        
+        updateFont();
+        
         $(doms).each(function () {
             updateStyle($(this));
         });
@@ -23,6 +26,13 @@
     $('body').on('input blur focus', inputs, function (e) {
         updateStyle($(this));
     });
+    
+    function updateFont(){
+        $("body, button, html, input, select, textarea").css({
+            fontFamily: "Tahoma",
+            lineHeight: "24px"
+        });
+    }
 
     function updateStyle(target) {
         var regex = [],
