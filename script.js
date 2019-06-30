@@ -23,6 +23,22 @@
     $('body').on('input blur focus', inputs, function (e) {
         updateStyle($(this));
     });
+    
+    function updateSpace(target) {
+        $('*', target).each(function () {
+            var paddingLeft = $(this).css('padding-left'),
+                paddingRight = $(this).css('padding-right'),
+                marginLeft = $(this).css('margin-left'),
+                marginRight = $(this).css('margin-right');
+                
+            $(this).css({
+                marginLeft: marginRight,
+                marginRight: marginLeft,
+                paddingLeft: paddingRight,
+                paddingRight: paddingLeft
+            });
+        })
+    }
 
     function updateStyle(target) {
         var regex = [],
@@ -67,6 +83,7 @@
 
         if (matched) {
             target.css(rtl);
+            updateSpace(target);
         } else {
             target.css(ltr);
         }
